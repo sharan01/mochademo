@@ -1,0 +1,14 @@
+{
+  "production" : {
+    "DBHost" : "mongodb://127.0.0.1:27017/production",
+    "port" : 80
+  },
+  "development": {
+    "DBHost" : "mongodb://127.0.0.1:27017/development",
+    "port" : 3000
+  },
+  "test": {
+    "DBHost" : "mongodb://127.0.0.1:27017/testing",
+    "port" : 4000
+  }
+}
