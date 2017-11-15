@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/sharan01/mochademo.svg?branch=master)](https://travis-ci.org/sharan01/mochademo)
 ## mocha demo
 
 clone the repository
