@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "test": "NODE_ENV=test mocha --timeout 6000",
-    "coverage": "istanbul cover _mocha -- -R spec --timeout 6000",
-    "start": "NODE_ENV=production node ./bin/www",
-    "dev": "NODE_ENV=development node  ./bin/www"
+    "test": "cross-env NODE_ENV=test mocha --timeout 6000",
+    "coverage": "cross-env istanbul cover _mocha -- -R spec --timeout 6000",
+    "start": "cross-env NODE_ENV=production node ./bin/www",
+    "dev": "cross-env NODE_ENV=development node  ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
@@ -23,6 +23,7 @@
     "chai": "^4.1.2",
     "chai-http": "^3.0.0",
     "coveralls": "^3.0.0",
+    "cross-env": "^5.1.1",
     "istanbul": "^0.4.5",
     "mocha": "^4.0.1",
     "mochawesome": "^2.3.1"
